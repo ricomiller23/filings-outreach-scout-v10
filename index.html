@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filings Outreach Scout V10</title>
+  <link rel="stylesheet" href="./v10-responsive.css" />
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #070b14; color: #e2e8f0; }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 16px 90px; }
+    header { border-bottom: 1px solid #1e293b; padding-bottom: 18px; margin-bottom: 24px; }
+    .eyebrow { color: #38bdf8; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    h1 { margin: 6px 0 8px; font-size: 28px; color: #f8fafc; }
+    .sub { color: #94a3b8; font-size: 15px; line-height: 1.5; max-width: 740px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+    .card { background: #0f172a; border: 1px solid #1e293b; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+    .badge { display: inline-block; width: fit-content; font-size: 11px; font-weight: 700; color: #38bdf8; background: rgba(56,189,248,0.12); padding: 3px 9px; border-radius: 999px; }
+    .card h3 { margin: 0; font-size: 16px; color: #f8fafc; }
+    .card p { margin: 0; font-size: 13px; color: #94a3b8; line-height: 1.45; }
+    .open-btn { margin-top: auto; min-height: 44px; border-radius: 8px; border: 1px solid #38bdf8; background: rgba(56,189,248,0.15); color: #f8fafc; font-weight: 600; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">SEC Filings, Rule 144 & Securities Intelligence &bull; V10 Release</div>
+      <h1>Filings Outreach Scout V10</h1>
+      <p class="sub">Targeting and lead intelligence engine analyzing distressed micro-cap filings to isolate actionable recapitalization and restructuring advisory opportunities.</p>
+    </header>
+    <div class="grid">
+        <div class="card">
+          <div class="badge">V10 Module #1</div>
+          <h3>Automated Cash Runway & Burn Rate Estimator</h3>
+          <p><strong>Capability:</strong> Parses balance sheet cash equivalents and quarterly operating cash flow from 10-Q filings to compute precise months of remaining cash runway.</p>
+          <p><strong>Rationale:</strong> Targeting issuers with under 60 days of cash remaining yields the highest urgency and transaction closing probability for emergency debt and equity line financings.</p>
+          <button type="button" class="open-btn" onclick="document.getElementById('v10-fab-btn') && document.getElementById('v10-fab-btn').click()">Launch Interactive Module</button>
+        </div>
+        
+        <div class="card">
+          <div class="badge">V10 Module #2</div>
+          <h3>Convertible Debt & Toxic Financing Toxic-Debt Radar</h3>
+          <p><strong>Capability:</strong> Scans Item 3.02 unregistered sales and notes payable footnotes to identify variable-rate convertible promissory notes with aggressive floorless ratchet provisions.</p>
+          <p><strong>Rationale:</strong> Companies burdened by death-spiral convertible notes urgently require Chapter 11 recapitalization or Section 3(a)(10) debt exchanges.</p>
+          <button type="button" class="open-btn" onclick="document.getElementById('v10-fab-btn') && document.getElementById('v10-fab-btn').click()">Launch Interactive Module</button>
+        </div>
+        
+        <div class="card">
+          <div class="badge">V10 Module #3</div>
+          <h3>Algorithmic Advisory Fit & Opportunity Scoring Matrix</h3>
+          <p><strong>Capability:</strong> Ranks distressed filers on a 0-100 composite index based on trading float, cash deficit, exchange status, and pending debt maturities.</p>
+          <p><strong>Rationale:</strong> Enables deal origination teams to focus exclusively on top-quintile prospects rather than sifting through hundreds of low-probability filings.</p>
+          <button type="button" class="open-btn" onclick="document.getElementById('v10-fab-btn') && document.getElementById('v10-fab-btn').click()">Launch Interactive Module</button>
+        </div>
+        
+        <div class="card">
+          <div class="badge">V10 Module #4</div>
+          <h3>Interactive Visual Cap Table Dilution Simulator</h3>
+          <p><strong>Capability:</strong> Simulates post-restructuring pro-forma equity dilution under varied recapitalization term sheets directly within the scout UI.</p>
+          <p><strong>Rationale:</strong> Equips advisors with ready-made visual deliverables to present directly to target boards during exploratory pitch meetings.</p>
+          <button type="button" class="open-btn" onclick="document.getElementById('v10-fab-btn') && document.getElementById('v10-fab-btn').click()">Launch Interactive Module</button>
+        </div>
+        
+        <div class="card">
+          <div class="badge">V10 Module #5</div>
+          <h3>Automated SEC Filing PDF Package Export with Executive Brief</h3>
+          <p><strong>Capability:</strong> Generates a branded one-page investment memorandum synthesizing the target's balance sheet distress, debt schedule, and strategic options with one click.</p>
+          <p><strong>Rationale:</strong> Saves 3 hours of manual analyst deck-preparation time per prospect, dramatically scaling advisory pipeline capacity.</p>
+          <button type="button" class="open-btn" onclick="document.getElementById('v10-fab-btn') && document.getElementById('v10-fab-btn').click()">Launch Interactive Module</button>
+        </div>
+        </div>
+  </div>
+  <script src="./v10-suite.js" defer></script>
+</body>
+</html>
